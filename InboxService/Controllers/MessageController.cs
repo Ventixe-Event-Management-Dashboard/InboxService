@@ -9,6 +9,7 @@ using System.Security.Claims;
 
 namespace InboxService.Controllers
 {
+    // Delar av denna kod är generard med chatgpt. Svårt att kommentera exakt kod då egna delar är skriva av mig och små ändringar gjort med chatgpt
     [Authorize]
     [ApiController]
     [Route("api/message")]
